@@ -1,0 +1,63 @@
+@import "../generics/colors";
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+
+
+  
+   #quality-intro{
+    background: linear-gradient(to right,rgba(black, 1.0), rgba($color-1, 0.7), rgba(0,0,0,0.2)) , url("../../img/quality/header.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 60vh;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    .contents{
+        width:100%;
+        display: flex;
+        // justify-content: flex-start;
+        color: $color-5;
+        h1{font-size: 4rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight:100;
+        }
+           p{font-size: 1.5rem;
+             color:$color-3;
+             font-family: 'Lora', serif;
+             font-style: italic;
+            }
+    }
+}
+
+#quality-message{
+    padding: 3.6rem;
+    div.imgg{padding-top:50px;}
+    .arrow{
+        display:inline-block;
+        padding-right:5px;
+        .fa-arrow-right{color:$color-3;font-size:10px;}
+    }
+}
+
+  
+// ========================================================================================
+                      // queries
+// ========================================================================================
+
+@media (max-width: 400px) {
+
+    #quality-message{
+      p.paragraph{font-size:.9rem;line-height:1.4rem;}
+      padding:1rem;
+      div.imgg{padding: 10px 0 25px 0;}
+
+      .col-md-7{padding-left: 0px; padding-right: 0;
+        h2{font-size:1.2rem;}
+        p.offset-2{margin-left:0; padding-right: 0; padding-left: 0px;}
+      }
+    }//#-message
+
+}//end 400

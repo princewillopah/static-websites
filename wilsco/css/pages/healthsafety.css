@@ -1,0 +1,101 @@
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+#healthsafety-intro {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(23, 37, 42, 0.7), black), url("../../img/hse/oil-gas-header.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  #healthsafety-intro .contents {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: #feffff; }
+    #healthsafety-intro .contents .tit {
+      font-size: 2.5rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      display: inline-block;
+      padding-left: 10px; }
+    #healthsafety-intro .contents p {
+      font-size: 1.5rem;
+      color: #3aafa9;
+      font-family: 'Lora', serif;
+      font-style: italic; }
+
+#healthsafety-message {
+  padding: 50px; }
+  #healthsafety-message h2 {
+    text-transform: uppercase; }
+  #healthsafety-message .hse img {
+    display: block;
+    margin: auto;
+    box-shadow: 0 2.5rem 6rem rgba(0, 0, 0, 0.1); }
+  #healthsafety-message .hse img:hover {
+    transition: all .9s ease;
+    box-shadow: 0 2.5rem 6rem rgba(0, 0, 0, 0.4);
+    transform: scale(1.1); }
+
+#health-safety-environment-1 {
+  background-color: #def2f1;
+  padding: 50px; }
+  #health-safety-environment-1 .row {
+    padding: 1rem !important; }
+    #health-safety-environment-1 .row h3 {
+      color: #2b7a78;
+      text-transform: uppercase; }
+    #health-safety-environment-1 .row p {
+      color: #646464; }
+#health-safety-environment-2 {
+  background-color: #feffff;
+  padding: 50px; }
+  #health-safety-environment-2 .row {
+    padding: 1rem !important; }
+    #health-safety-environment-2 .row h3 {
+      color: #2b7a78;
+      text-transform: uppercase; }
+    #health-safety-environment-2 .row h5 {
+      color: #17252a;
+      font-size: 1rem; }
+    #health-safety-environment-2 .row p {
+      color: #646464; }
+    #health-safety-environment-2 .row .arrow {
+      display: inline-block;
+      padding-right: 5px; }
+      #health-safety-environment-2 .row .arrow .fa-arrow-right {
+        color: #3aafa9;
+        font-size: 10px; }
+#health-safety-environment-3 {
+  background-color: #def2f1;
+  padding: 50px; }
+  #health-safety-environment-3 .row {
+    padding: 1rem !important; }
+    #health-safety-environment-3 .row h3 {
+      color: #2b7a78;
+      text-transform: uppercase; }
+    #health-safety-environment-3 .row p {
+      color: #646464; }
+
+@media (max-width: 400px) {
+  #healthsafety-message {
+    padding: 1rem; }
+    #healthsafety-message p.paragraph {
+      font-size: .9rem;
+      line-height: 1.4rem; }
+    #healthsafety-message div.imgg {
+      padding-top: 10px; }
+    #healthsafety-message .col-md-7 {
+      padding-left: 0px;
+      padding-right: 0; }
+      #healthsafety-message .col-md-7 h2 {
+        font-size: 1.2rem; }
+    #healthsafety-message .col-md-5 {
+      padding-left: 0px;
+      padding-right: 0; } }
+
+/*# sourceMappingURL=healthsafety.css.map */

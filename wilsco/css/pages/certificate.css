@@ -1,0 +1,105 @@
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+#certificate-intro {
+  background: linear-gradient(to right, black, rgba(23, 37, 42, 0.7), rgba(0, 0, 0, 0.2)), url("../../img/certs/contact-header.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  color: red;
+  display: flex;
+  align-items: center; }
+  #certificate-intro .contents {
+    width: 100%;
+    display: flex;
+    color: #feffff; }
+    #certificate-intro .contents h1 {
+      font-size: 4rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100; }
+    #certificate-intro .contents p {
+      font-size: 1.5rem;
+      color: #3aafa9;
+      font-family: 'Lora', serif;
+      font-style: italic; }
+
+#message {
+  padding: 3.6rem; }
+  #message .card-img-top {
+    width: 50%;
+    margin: 5px auto; }
+  #message .card-body {
+    text-align: center; }
+  #message .cols {
+    padding-bottom: 20px; }
+
+.certificate {
+  padding: 3.5rem;
+  position: relative;
+  background-color: #eee; }
+  .certificate .h2 {
+    text-align: center !important;
+    margin-bottom: 1.5rem; }
+  .certificate-box .icon {
+    font-size: 2.9rem;
+    color: #2b7a78;
+    text-align: center !important; }
+  .certificate .owl-carousel.owl-drag .owl-item {
+    padding: 12px; }
+  .certificate div.owl-nav.custom-owl-navss button {
+    background-color: transparent;
+    font-size: 25px;
+    color: #a6afb6;
+    border: none;
+    padding: 7px;
+    box-shadow: none !important; }
+    .certificate div.owl-nav.custom-owl-navss button:hover {
+      transition: all .9s ease;
+      color: #2b7a78;
+      border: none; }
+    .certificate div.owl-nav.custom-owl-navss button:focus {
+      box-shadow: none !important;
+      outline: 0 !important; }
+  .certificate div.owl-nav.custom-owl-navss .myMultipleSliderNavcustomPrevBtn, .certificate div.owl-nav.custom-owl-navss .myMultipleSliderNavcustomNextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 12;
+    cursor: pointer; }
+  .certificate div.owl-nav.custom-owl-navss .myMultipleSliderNavcustomNextBtn {
+    right: 3%; }
+  .certificate div.owl-nav.custom-owl-navss .myMultipleSliderNavcustomPrevBtn {
+    left: 3%; }
+
+@media (max-width: 400px) {
+  #certificate-message {
+    padding: 1rem; }
+    #certificate-message p {
+      font-size: .9rem; }
+    #certificate-message .col-md-12 {
+      padding-left: 0px;
+      padding-right: 0; }
+      #certificate-message .col-md-12 h2 {
+        font-size: 1.2rem; }
+      #certificate-message .col-md-12 p.offset-2 {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0px; }
+    #certificate-message .cols {
+      padding-right: 0;
+      padding-left: 0px;
+      padding-bottom: 10px; }
+      #certificate-message .cols .card-body {
+        padding: .7rem; }
+        #certificate-message .cols .card-body .card-title {
+          margin-bottom: 0.2rem; }
+        #certificate-message .cols .card-body h4, #certificate-message .cols .card-body .h4 {
+          font-size: 1.2rem;
+          text-align: center; }
+        #certificate-message .cols .card-body .card-text {
+          text-align: center; } }
+
+/*# sourceMappingURL=certificate.css.map */

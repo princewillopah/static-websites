@@ -1,0 +1,54 @@
+.container-fluid {
+  padding: 0; }
+  .container-fluid .nav-top {
+    background-color: #2b7a78;
+    width: 100%;
+    padding-right: 20px;
+    border-bottom: 1px solid rgba(178, 178, 178, 0.5); }
+    .container-fluid .nav-top .tran .goog-te-gadget {
+      line-height: 2px !important;
+      color: transparent; }
+    .container-fluid .nav-top .tran #google_translate_element .goog-logo-link, .container-fluid .nav-top .tran .goog-logo-link:link {
+      display: none; }
+    .container-fluid .nav-top .phone {
+      margin: 0 20px;
+      color: #def2f1; }
+    .container-fluid .nav-top .nav-social {
+      display: inline; }
+      .container-fluid .nav-top .nav-social a {
+        padding: 2px 8px; }
+      .container-fluid .nav-top .nav-social .socials {
+        color: #def2f1;
+        transition: all .7s ease; }
+        .container-fluid .nav-top .nav-social .socials:hover {
+          color: #feffff; }
+
+/*-------------nav---------------------------*/
+#navbar .navbar {
+  clear: both;
+  background: white;
+  border-bottom: 1px solid #eee;
+  padding: 0 !important; }
+  #navbar .navbar .nav-link {
+    padding-left: 20px;
+    color: #17252a;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif; }
+    #navbar .navbar .nav-link:hover {
+      color: #2b7a78; }
+  #navbar .navbar .active a {
+    color: #2b7a78; }
+  #navbar .navbar .navbar-brand {
+    padding: 0 !important; }
+    #navbar .navbar .navbar-brand span {
+      font-size: 30px; }
+
+@media (max-width: 520px) {
+  .phone {
+    display: none; } }
+@media screen and (max-width: 300px) {
+  .our-services {
+    padding: 2rem 0 !important; } }
+
+/*# sourceMappingURL=header.css.map */

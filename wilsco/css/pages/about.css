@@ -1,0 +1,76 @@
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+#about-intro {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(23, 37, 42, 0.7), black), url("../../img/about/contact-header.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  #about-intro .contents {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: #feffff; }
+    #about-intro .contents h1 {
+      font-size: 4rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100; }
+    #about-intro .contents p {
+      font-size: 1.5rem;
+      color: #3aafa9;
+      font-family: 'Lora', serif;
+      font-style: italic; }
+
+#about-message {
+  padding: 3.6rem; }
+
+#mission-vision {
+  padding: 3.6rem;
+  background-color: #eee; }
+  #mission-vision h2 {
+    margin-bottom: 2rem; }
+  #mission-vision .row:not(:first-child) {
+    margin-bottom: 3rem;
+    box-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: #fff; }
+    #mission-vision .row:not(:first-child) h4 {
+      color: #2b7a78; }
+
+@media (max-width: 400px) {
+  #about-message {
+    padding: 1rem; }
+    #about-message p.paragraph {
+      font-size: .9rem;
+      line-height: 1.4rem;
+      margin-bottom: 10px; }
+    #about-message .col-md-12 {
+      padding-left: 0px;
+      padding-right: 0; }
+      #about-message .col-md-12 h2 {
+        font-size: 1.4rem; }
+
+  #mission-vision {
+    padding: 1rem; }
+    #mission-vision .section-heading {
+      margin: 0 auto 1rem auto; }
+    #mission-vision h2 {
+      font-size: 1.4rem; }
+    #mission-vision .col-md-7 {
+      padding-left: 0;
+      padding-right: 0; }
+      #mission-vision .col-md-7 p.paragraph {
+        font-size: .9rem;
+        line-height: 1.4rem; }
+      #mission-vision .col-md-7 h4 {
+        font-size: 1rem; }
+    #mission-vision .col-md-5 {
+      padding-left: 0;
+      padding-right: 0; } }
+
+/*# sourceMappingURL=about.css.map */

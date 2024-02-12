@@ -1,0 +1,634 @@
+.bg-white{background: #fff!important;}
+.main-col{color: #EB1C25}
+// purple -- #EB1C25  //  #33334d
+// violet -- #9900cc  //  #39004d
+//teal     #004d4d   // #003333
+//EB1C25
+//1F3264
+
+.single-funfacts-about p.disc {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-primary);
+    text-align: center;
+    font-size: 20px;
+    color: black
+}
+
+.about-six-inner-wrapper p.disc{margin-bottom: 10px;}
+h2.title.mt--10{font-size: 40px;}
+.mobile{display: none;}
+
+@media only screen and (max-width: 960px){
+    .mobile{display: block;}
+}
+h6.title.titlex{
+//  background: var(--color-primary);   
+ color: #eee;
+}
+
+.single-footer-wized-two.user-number .single-number .title {
+    font-size: 13px;
+    line-height: 14px;
+    color: #bdbdbd;
+    margin-bottom: 8px;
+}
+
+.logo-area{
+  max-width: 240px;
+}
+
+.main-footer-wrapper-two .single-footer-wized-two.logo-area a.logo img {
+  max-width: 180px;
+}
+
+.single-footer-wized-two.logo-area a img {
+  margin-bottom: 20px;
+}
+
+
+.rts-banner-one .banner-one-wrapper .call-area .detail span {
+  display: block;
+  text-transform: capitalize;
+  color:#EB1C25
+}
+
+.single-service-sm img{
+max-height: 55px;
+max-width: 55px;
+}
+
+.main-content-area-about-p p.disc {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+.bg-breadcrumb-about {
+  position: relative;
+}
+
+.bg-breadcrumb-about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.bg-breadcrumb-about {
+    background-image: url(../images/_about/bg.png);
+  }
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+.bg-breadcrumb-ship {
+  position: relative;
+}
+
+.bg-breadcrumb-ship::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.bg-breadcrumb-ship {
+    background-image: url(../images/_shipping/bg.png);
+
+  }
+
+// -------------------------------------------------------------------
+//    rail
+// -------------------------------------------------------------------
+
+.bg-breadcrumb-rail {
+  position: relative;
+}
+
+.bg-breadcrumb-rail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.bg-breadcrumb-rail {
+    background-image: url(../images/_rail/bg.png);
+
+  }
+// -------------------------------------------------------------------
+//    contact
+// -------------------------------------------------------------------
+
+.bg-breadcrumb-contact {
+  position: relative;
+}
+
+.bg-breadcrumb-contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.bg-breadcrumb-contacts {
+  background-image: url(../images/_contact/bg.PNG);
+}
+
+// -------------------------------------------------------------------
+//    storage-detail-terminal-bg
+// -------------------------------------------------------------------
+
+.storage-detail-terminal-bg {
+  position: relative;
+}
+
+.storage-detail-terminal-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.storage-detail-terminal-bg {
+  background-image: url(../images/_storage/storage-detail-bg.jpg);
+}
+// -------------------------------------------------------------------
+//   other serive
+// -------------------------------------------------------------------
+
+// .bg-breadcrumb-seq {
+//   background-image: url(../images/_seq/safe.jpg);
+// .breadcrumb-inner .title {
+//   color: #0C0A0A;
+// }
+// .breadcrumb-inner .meta a {
+//   color: #0C0A0A;
+// }
+
+// }
+.bg-breadcrumb-other-serives-bg {
+  position: relative;
+}
+
+.bg-breadcrumb-other-serives-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+// -------------------------------------------------------------------
+//  hsse
+// -------------------------------------------------------------------
+
+.bg-breadcrumb-hsse{
+  position: relative;
+}
+
+.bg-breadcrumb-hsse::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.bg-breadcrumb-hsse{  background-image: url(../images/_seq/hsse-bg.png);}
+
+
+// -------------------------------------------------------------------
+//  hsse
+// -------------------------------------------------------------------
+
+.bg-breadcrumb-hsse-main{
+  position: relative;
+}
+
+.bg-breadcrumb-hsse-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.bg-breadcrumb-hsse-main{  background-image: url(../images/_seq/hsse-bg-main.jpg);}
+
+// ----------------------------------------------------------------------------------------
+.bg-breadcrumb-other-serives-bg{ background-image: url(../images/_storage/other-services-bg.png);}
+
+.bg-breadcrumb-seq {
+  position: relative;
+}
+
+.bg-breadcrumb-seq::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.bg-breadcrumb-seq {
+  background-image: url(../images/_seq/safe.jpg);
+}
+
+.breadcrumb-inner .title {
+  color:  #e7e7e7;
+  position: relative; /* Add position relative to the text elements */
+  z-index: 2; /* Set a higher z-index to make the text appear above the overlay */
+}
+
+.breadcrumb-inner .meta a {
+  color: #EB1C25;
+  position: relative;
+  z-index: 2;
+}
+
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+.woocommerce-product-details__short-description {
+  h5{
+      font-weight: 500;
+      line-height: 23px;
+  }
+  p{
+    
+      font-size: var(--font-size-b2);
+      line-height: 20px;
+      font-weight: 300;
+      color: var(--color-body);
+      margin: 0 0 10px;
+  
+  }
+}
+
+.rts-about-us-area{
+   
+  .product-details-main-inner{
+    .title-hsse{
+        margin-bottom: 20px;
+            h3{
+              color: #003333;
+                  span{
+                    color: #004d4d!important;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 24px;
+
+            }
+      }
+        p.italic{ 
+            color: #2F4F4F;
+            font-weight: 500;
+            line-height:28px;
+
+        }
+    } // .title-hsse
+    .contenty{
+      margin-top: 50px; 
+        h4{
+            color:#003333;
+            font-size: 25px;
+            span{
+                    color: #004d4d!important;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 24px;
+
+            } 
+        }
+        p{
+          line-height: 20px;
+         margin-bottom: 10px
+        }
+    }
+
+    .sus{
+      margin-bottom: 25px;
+      margin-top: 0px; 
+      h4{
+          color:#004d4d;
+          font-size: 20px;
+          margin-bottom: 10px;
+          span{
+                  color: #004d4d!important;
+                  font-weight: 600;
+                  font-size: 25px;
+                  line-height: 24px;
+
+          } 
+      }
+      .single-project-details-challenge{
+        p{
+            line-height: 20px;
+           margin-bottom: 10px;
+            color: #6E777D
+       }  
+      }
+      
+  }//sus
+
+
+}
+  
+}
+
+
+
+
+
+
+
+// -------------------------------------------------------------------
+//    index 
+// -------------------------------------------------------------------
+.text-index h4 {
+
+  text-align: center;
+      line-height: 40px;
+      font-weight: 300;
+      font-family: 'Montserrat', sans-serif;
+  }
+// -------------------------------------------------------------------
+//    about us
+// -------------------------------------------------------------------
+.about-a-p-cont {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+.service-abot-area{
+  text-align: center;
+   .text-index h4 {
+       background: #EB1C25;
+         text-align: center;
+         line-height: 40px;
+         font-weight: 300;
+         font-family: 'Montserrat', sans-serif;
+         color: #6E777D;
+       width:80%
+     }
+    
+   &.rts-section-gap{
+       padding: 80px 0
+   }
+   h3{
+     color: #aaa;
+   }
+   .text-index h5 {
+       line-height: 30px;
+       font-weight: 500;
+       font-family: 'Montserrat', sans-serif;
+       color: #6E777D;
+        padding: 20px 0 30px 0;
+       width: 70%;
+       margin: 0 auto
+   }
+ 
+   .content{
+        
+       margin-top: 60px;
+       .col-md-4{margin-bottom: 40px}
+       .about-1{
+           font-size: 20px;
+           color:teal;
+           width: 80%;
+           text-align: center;
+           margin: 0 auto 10px auto
+       }
+       .about-1-body{}
+   }
+     
+ }
+
+ .rts-offer-provide-section.rts-section-gap.our-service{
+  padding: 80px 20px;
+  .col-12{
+      text-align: center;margin-bottom: 20px
+  }
+
+}
+
+.rts-company-experties-area.rts-section-gap.home-seven{
+  .latest-project-horizental-title-wrapper{
+      .title{
+        color:#0C0A0A!important
+      }
+  }
+  h2.title{
+      color:#33334d
+  }
+  
+  .experties-area-inner {
+      padding: 48px 0;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .single-experties{
+         .counter-inner {
+          margin-left: 20px;
+          .title span.plus {
+            position: relative;
+            &::after{
+              position: absolute;
+              right: -25px;
+              top: 14px;
+              content: "+";
+              font-size: 36px;
+              color: #33334d;
+          }
+            }
+          } 
+          
+         &::after{
+                  position: absolute;
+                  content: "";
+                  height: 213%;
+                  width: 1px;
+                  background: #ddd;
+                  top: 50%;
+                  right: -70px;
+                  transform: translateY(-50%);
+           } 
+      } 
+      
+       
+      
+  }
+     
+  
+}
+
+// -------------------------------------------------------------------
+//    Storage
+// -------------------------------------------------------------------
+.storage-caption {
+  margin-bottom: 70px;
+  // background: #f0f3f2;
+  padding: 15px 20px;
+    text-align: center;
+    // width: auto
+
+  h5 {
+    margin-bottom: 10px;
+    border-left: transparent;
+    font-size: 22px;
+    color: #0d1120;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: 500;
+  }
+
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+      a{
+          color: teal;font-weight: bold
+      }
+  }
+}
+
+
+// -------------------------------------------------------------------
+//    Storage 
+// -------------------------------------------------------------------
+
+.service-detials-step-1 .service-details-card {
+  padding: 10px 20px;
+  box-shadow: 0px 8px 30px #6a6a6a1a;
+  display: flex;
+  align-items: flex-start;
+  border-left: 5px solid var(--color-primary);
+  .details {
+       margin-left: 0px; 
+  }
+
+}
+
+.single-categories li.active a {
+  background: var(--color-primary);
+  /* Add any other styles you want for the active state */
+  // transform: translateY(-5px) scale(1.03);
+    color: var(--color-white);
+}
+
+// -------------------------------------------------------------------
+//    other services 
+// -------------------------------------------------------------------
+.services-style{
+
+  span.pre{
+      
+  }
+  h2.title{
+      color: #1F3264;
+      width: 70%;
+      margin: 0 auto;
+  }
+  
+  div.card-1{
+      h4.title{color: #EB1C25!important; } 
+    .single-banifits{
+         
+           display: flex;
+        align-items: top;
+          i{color: #1F3264; padding-top: 3px;}
+          span{
+              color: #33334d; margin-left: 5px;line-height: 18px;margin-bottom: 10px
+          }
+      } 
+  }
+  
+}
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+.logo-area {
+  max-width: 290px;
+}
+.main-footer-one-area .single-footer-inner .footer-title {
+  margin-bottom: 15px;
+}
+.main-footer-one-area .body.one p.disc {
+  margin-bottom: 23px;
+  margin-top: 20px;
+}
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+//    Shipping 
+// -------------------------------------------------------------------

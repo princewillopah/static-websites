@@ -1,0 +1,173 @@
+/*==========================================================================================*/
+/*  footer  */
+/*=============================================================================================*/
+footer#footer {
+  background: #161619;
+  padding-top: 50px;
+  color: #feffff; }
+
+footer#footer .main-footer h5 {
+  font-weight: bold; }
+
+footer#footer .main-footer1 .charity-logo span {
+  font-size: 14px; }
+
+footer#footer .main-footer1 p {
+  text-align: left;
+  color: #abafb3; }
+
+footer#footer .main-footer1 .charity-logo p {
+  color: white; }
+
+/*footer#footer .main-footer .nav a{color: #dddfe1;font-size: 1.3rem; border:2px solid #dddfe1; margin-right: 10px;padding: 0.2rem 0.5rem; border-radius: 5px;}*/
+footer#footer .main-footer1 .nav a {
+  font-size: 1.3rem;
+  border: 2px solid #dddfe1;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  padding: 0.5rem;
+  margin-right: 6px; }
+
+footer#footer .main-footer1 .nav .facebook, .instagram, .youtube, .twitter, .linkedin {
+  color: #dddfe1;
+  transition: all .7s ease; }
+
+footer#footer .main-footer1 .nav .facebook:hover {
+  color: #3b5998; }
+
+footer#footer .main-footer1 .nav .instagram:hover {
+  color: #3f729b; }
+
+footer#footer .main-footer1 .nav .youtube:hover {
+  color: #c4302b; }
+
+footer#footer .main-footer1 .nav .twitter:hover {
+  color: #38a1f3; }
+
+footer#footer .main-footer1 .nav .linkedin:hover {
+  color: #0077b5; }
+
+footer#footer .main-footer2 .nav-link {
+  padding: 0.2rem 0; }
+
+footer#footer .main-footer2 a {
+  color: #abafb3;
+  transition: all 0.7s ease; }
+
+footer#footer .main-footer2 a:hover {
+  color: #fff; }
+
+footer#footer .main-footer2 .active {
+  color: #fff; }
+
+footer#footer .main-footer4 span.icon {
+  padding-right: 10px;
+  color: #fff; }
+
+footer#footer .main-footer4 span.icon .fa {
+  width: 20px;
+  text-align: left; }
+
+footer#footer .main-footer4 p {
+  display: flex;
+  color: #999; }
+
+footer#footer .main-footer h5 {
+  padding-bottom: 10px;
+  color: white; }
+
+footer#footer .copyright-color {
+  background-color: #0d0d0f;
+  border-top: 2px solid transparent;
+  margin-top: 3rem; }
+
+footer#footer .copyright {
+  color: #999; }
+
+footer#footer .menu, .copyright {
+  padding: 1rem; }
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  background-color: transparent;
+  border: 1px solid #2b7a78;
+  color: #2b7a78;
+  /*z-index: 2147483647;*/
+  /*display: block;*/
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  /*-webkit-transition-duration: 500ms;*/
+  transition-duration: 500ms;
+  display: none; }
+
+.btn-back-to-top:hover {
+  background-color: #2b7a78;
+  color: #def2f1;
+  border: 1px solid #2b7a78; }
+
+@media screen and (max-width: 1200px) {
+  footer#footer .main-footer1 .nav a {
+    border: 2px solid #dddfe1;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.5rem;
+    margin-right: 6px;
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+    line-height: 1px; } }
+@media (max-width: 400px) {
+  footer#footer {
+    padding-top: 20px;
+    text-align: center; }
+
+  footer#footer .cols {
+    margin-bottom: 30px; }
+
+  footer#footer .main-footer1 .nav a {
+    border: 2px solid #dddfe1;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.5rem;
+    margin-right: 6px;
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+    line-height: 1px; }
+
+  footer#footer .main-footer h5 {
+    margin-bottom: 0;
+    padding-bottom: 5px; }
+
+  footer#footer .menu, .copyright {
+    padding: 0; }
+
+  footer#footer .copyright-color {
+    margin-top: 0; }
+
+  .btn-back-to-top {
+    right: 10px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    padding: 5px; }
+
+  .btn-back-to-top:hover {
+    background-color: #2b7a78;
+    color: #def2f1;
+    border: 1px solid #2b7a78; } }
+
+/*# sourceMappingURL=footer.css.map */

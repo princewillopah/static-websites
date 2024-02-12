@@ -1,0 +1,171 @@
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+#transportationLogistic {
+  background: linear-gradient(to right, black, rgba(23, 37, 42, 0.7), rgba(0, 0, 0, 0.2)), url("../../img/hse/oil-gas-header.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  #transportationLogistic .contents {
+    width: 100%;
+    display: flex;
+    color: #feffff; }
+    #transportationLogistic .contents .tit {
+      font-size: 2.5rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      display: inline-block;
+      padding-right: 10px; }
+    #transportationLogistic .contents p {
+      font-size: 1.5rem;
+      color: #3aafa9;
+      font-family: 'Lora', serif;
+      font-style: italic; }
+
+#transportationLogistic-message {
+  padding: 50px; }
+  #transportationLogistic-message h2 {
+    text-transform: uppercase; }
+  #transportationLogistic-message .tts {
+    position: relative; }
+    #transportationLogistic-message .tts__photo {
+      width: 55%;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+      border-radius: 50%;
+      position: absolute;
+      transition: all .9s; }
+      #transportationLogistic-message .tts__photo-1 {
+        left: 0;
+        top: 4rem;
+        z-index: 1; }
+      #transportationLogistic-message .tts__photo-2 {
+        left: 20%;
+        top: 10rem;
+        z-index: 2; }
+      #transportationLogistic-message .tts__photo-3 {
+        right: 0;
+        top: 4rem;
+        z-index: 3; }
+      #transportationLogistic-message .tts__photo:hover {
+        border: 0.5rem solid #feffff;
+        outline-offset: .5rem;
+        transform: scale(1.2) translateY(-2rem);
+        box-shadow: 0 2.5rem 6rem rgba(0, 0, 0, 0.4);
+        z-index: 20; }
+    #transportationLogistic-message .tts:hover #transportationLogistic-message .tts__photo:not(:hover) {
+      transform: scale(0.55); }
+
+#health-safety-environment-1 {
+  background-color: #def2f1;
+  padding: 50px; }
+  #health-safety-environment-1 .row {
+    padding: 1rem !important; }
+    #health-safety-environment-1 .row h3 {
+      color: #2b7a78;
+      text-transform: uppercase; }
+    #health-safety-environment-1 .row p {
+      color: #646464; }
+#health-safety-environment-2 {
+  background-color: #feffff;
+  padding: 50px; }
+  #health-safety-environment-2 .row {
+    padding: 1rem !important; }
+    #health-safety-environment-2 .row h3 {
+      color: #2b7a78;
+      text-transform: uppercase; }
+    #health-safety-environment-2 .row h5 {
+      color: #17252a;
+      font-size: 1rem; }
+    #health-safety-environment-2 .row p {
+      color: #646464; }
+    #health-safety-environment-2 .row .arrow {
+      display: inline-block;
+      padding-right: 5px; }
+      #health-safety-environment-2 .row .arrow .fa-arrow-right {
+        color: #3aafa9;
+        font-size: 10px; }
+#health-safety-environment-3 {
+  background-color: #def2f1;
+  padding: 50px; }
+  #health-safety-environment-3 .row {
+    padding: 1rem !important; }
+    #health-safety-environment-3 .row h3 {
+      color: #2b7a78;
+      text-transform: uppercase; }
+    #health-safety-environment-3 .row p {
+      color: #646464; }
+
+@media screen and (max-width: 767px) {
+  .tts-image {
+    display: none !important; } }
+@media (max-width: 400px) {
+  #transportationLogistic-message {
+    padding: 1rem; }
+    #transportationLogistic-message p.paragraph {
+      font-size: .9rem;
+      line-height: 1.4rem;
+      margin-bottom: 10px; }
+    #transportationLogistic-message div.col-md-8 {
+      padding-left: 0px;
+      padding-right: 0; }
+      #transportationLogistic-message div.col-md-8 h2 {
+        font-size: 1.2rem; }
+
+  #health-safety-environment-1 {
+    padding: 10px 0px; }
+    #health-safety-environment-1 .row .col-md-5 {
+      padding-left: 0px;
+      padding-right: 0px; }
+    #health-safety-environment-1 .row .col-md-7 {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 10px; }
+      #health-safety-environment-1 .row .col-md-7 h3 {
+        font-size: 16px; }
+      #health-safety-environment-1 .row .col-md-7 p.paragraph {
+        font-size: .9rem;
+        line-height: 1.4rem;
+        margin-bottom: 10px; }
+  #health-safety-environment-2 {
+    padding: 10px 0px; }
+    #health-safety-environment-2 .row .col-md-5 {
+      padding-left: 0px;
+      padding-right: 0px; }
+    #health-safety-environment-2 .row .col-md-7 {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 10px; }
+      #health-safety-environment-2 .row .col-md-7 h3 {
+        font-size: 16px; }
+      #health-safety-environment-2 .row .col-md-7 p.paragraph {
+        font-size: .9rem;
+        line-height: 1.4rem;
+        margin-bottom: 10px; }
+    #health-safety-environment-2 .row .arrow {
+      display: inline-block;
+      padding-right: 5px; }
+      #health-safety-environment-2 .row .arrow .fa-arrow-right {
+        color: #3aafa9;
+        font-size: 10px; }
+  #health-safety-environment-3 {
+    padding: 10px 0px; }
+    #health-safety-environment-3 .row .col-md-5 {
+      padding-left: 0px;
+      padding-right: 0px; }
+    #health-safety-environment-3 .row .col-md-7 {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 10px; }
+      #health-safety-environment-3 .row .col-md-7 h3 {
+        font-size: 16px; }
+      #health-safety-environment-3 .row .col-md-7 p.paragraph {
+        font-size: .9rem;
+        line-height: 1.4rem;
+        margin-bottom: 10px; } }
+
+/*# sourceMappingURL=transportationLogistic.css.map */

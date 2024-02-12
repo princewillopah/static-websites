@@ -1,0 +1,128 @@
+
+// ========================================================================================
+// queries
+// ========================================================================================
+
+@media screen and (min-width: 1277px) and (max-width: 5000px) {
+
+
+}
+
+@media screen and (max-width: 1277px) {
+
+
+}
+
+@media screen and (max-width: 1124px) {
+
+
+}
+
+@media screen and (max-width: 1007px) {
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+
+}
+
+@media screen and (max-width: 871px) {
+
+
+}
+
+@media screen and (max-width: 832px){
+
+
+}
+
+@media screen and (max-width: 796px) {
+
+
+}
+
+@media screen and (max-width: 777px) {
+
+
+}
+
+@media screen and (max-width: 740px) {
+
+
+}
+
+@media (max-width: 740px) {
+
+
+}
+
+@media (max-width: 576px) {
+
+
+}
+
+@media (max-width: 520px) {
+.phone{
+display: none;
+}
+
+
+}
+
+@media (max-width: 480px) {
+
+
+}
+@media (max-width: 400px) {
+    #about-intro,
+    #storage-intro,
+    #transportationLogistic,
+    #healthsafety-intro,
+    #contact-intro,
+    #handling-intro,
+    #shipping-intro,
+    #pid-intro,
+    #railing-intro,
+    #certificate-intro,
+    #quality-intro{
+        height: 119px;
+    }
+
+
+    #about-intro .contents h1,
+    #storage-intro .contents h1,
+    #contact-intro .contents h1,
+    #handling-intro .contents h1,
+    #shipping-intro .contents h1,
+    #pid-intro .contents h1,
+    #railing-intro .contents h1,
+    #certificate-intro .contents h1,
+    #quality-intro .contents h1{font-size: 1.1rem}
+    #transportationLogistic .contents .tit,
+    #healthsafety-intro .contents .tit{font-size: 1.1rem; padding-right: 0; padding-left: 0px;}
+
+
+    #about-intro .contents p,
+    #storage-intro .contents p,
+    #transportationLogistic .contents p,
+    #healthsafety-intro .contents p,
+    #contact-intro .contents p,
+    #handling-intro .contents p,
+    #shipping-intro .contents p,
+    #pid-intro .contents p,
+    #railing-intro .contents p,
+    #certificate-intro .contents p,
+    #quality-intro .contents p{font-size: .8rem}
+
+
+#message{padding:1rem;}
+#message .col-md-12{padding-left: 0px; padding-right: 0;}
+#message .col-md-12 p.offset-2{margin-left:0; padding-right: 0; padding-left: 0px;}
+#message .cols{padding-right: 0; padding-left: 0px;}
+
+
+
+
+}/* end 400 */

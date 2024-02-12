@@ -1,0 +1,57 @@
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+#quality-intro {
+  background: linear-gradient(to right, black, rgba(23, 37, 42, 0.7), rgba(0, 0, 0, 0.2)), url("../../img/quality/header.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  #quality-intro .contents {
+    width: 100%;
+    display: flex;
+    color: #feffff; }
+    #quality-intro .contents h1 {
+      font-size: 4rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100; }
+    #quality-intro .contents p {
+      font-size: 1.5rem;
+      color: #3aafa9;
+      font-family: 'Lora', serif;
+      font-style: italic; }
+
+#quality-message {
+  padding: 3.6rem; }
+  #quality-message div.imgg {
+    padding-top: 50px; }
+  #quality-message .arrow {
+    display: inline-block;
+    padding-right: 5px; }
+    #quality-message .arrow .fa-arrow-right {
+      color: #3aafa9;
+      font-size: 10px; }
+
+@media (max-width: 400px) {
+  #quality-message {
+    padding: 1rem; }
+    #quality-message p.paragraph {
+      font-size: .9rem;
+      line-height: 1.4rem; }
+    #quality-message div.imgg {
+      padding: 10px 0 25px 0; }
+    #quality-message .col-md-7 {
+      padding-left: 0px;
+      padding-right: 0; }
+      #quality-message .col-md-7 h2 {
+        font-size: 1.2rem; }
+      #quality-message .col-md-7 p.offset-2 {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0px; } }
+
+/*# sourceMappingURL=quality.css.map */

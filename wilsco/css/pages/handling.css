@@ -1,0 +1,63 @@
+#handling-intro {
+  background: linear-gradient(to right, black, rgba(23, 37, 42, 0.7), rgba(0, 0, 0, 0.2)), url("../../img/contact/contact-header.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  #handling-intro .contents {
+    width: 100%;
+    display: flex;
+    color: #feffff; }
+    #handling-intro .contents h1 {
+      font-size: 4rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100; }
+    #handling-intro .contents p {
+      font-size: 1.5rem;
+      color: #3aafa9;
+      font-family: 'Lora', serif;
+      font-style: italic; }
+
+#handling-message {
+  padding: 3.6rem; }
+  #handling-message div.imgg {
+    padding-top: 50px; }
+
+.handling-images {
+  padding: 3.6rem;
+  background-color: #eee; }
+  .handling-images .inner {
+    overflow: hidden; }
+    .handling-images .inner img {
+      transition: all 1.9s ease; }
+    .handling-images .inner:hover img {
+      transform: scale(1.5); }
+
+@media (max-width: 400px) {
+  #handling-message {
+    padding: 1rem; }
+    #handling-message p.paragraph {
+      font-size: .9rem;
+      line-height: 1.4rem; }
+    #handling-message div.imgg {
+      padding-top: 10px; }
+    #handling-message .col-md-6 {
+      padding-left: 0px;
+      padding-right: 0; }
+      #handling-message .col-md-6 h2 {
+        font-size: 1.2rem; }
+      #handling-message .col-md-6 p.offset-2 {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0px; }
+
+  .handling-images {
+    padding: 1rem 0; }
+    .handling-images .col-md-6 {
+      margin-bottom: 10px; } }
+
+/*# sourceMappingURL=handling.css.map */

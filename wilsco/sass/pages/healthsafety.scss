@@ -1,0 +1,165 @@
+
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+@import "../generics/colors";
+
+  
+// #about-intro{
+// 	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("../../img/slide/16.jpg") no-repeat center center;
+// 	-webkit-background-size: cover;
+// 	-moz-background-size: cover;
+// 	-o-background-size: cover;
+// 	background-size: cover;
+// 	height: 60vh;
+// 	width: 100%;
+//     display: flex;
+//     align-items: center;
+//     .contents{
+//         color: azure;
+//        h1{font-size: 2rem}
+//         p{font-size: 1.5rem}
+//     }
+// }
+
+#healthsafety-intro{
+    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba($color-1, 0.7),rgba(black, 1.0)) , url("../../img/hse/oil-gas-header.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 60vh;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    .contents{
+        width:100%;
+        display: flex;
+        justify-content: flex-end;
+        color: $color-5;
+        // h1{font-size: 4rem;
+        //     font-family: 'Roboto', sans-serif;
+        //     font-weight:100;
+        // }
+        .tit {
+            font-size: 2.5rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            display:inline-block;
+            padding-left:10px;
+        }
+
+           p{font-size: 1.5rem;
+             color:$color-3;
+             font-family: 'Lora', serif;
+             font-style: italic;
+            }
+    }
+}
+
+#healthsafety-message{
+    padding:50px;
+    h2{text-transform: uppercase;}
+   .hse{
+     img{
+       display: block;
+       margin: auto;
+       box-shadow: 0 2.5rem 6rem rgba(0,0,0,.1);
+     }
+     img:hover{
+       transition:all .9s ease;
+       box-shadow: 0 2.5rem 6rem rgba(0,0,0,.4);
+       transform: scale(1.1);
+
+     }
+   }
+
+}
+
+#health-safety-environment{
+   &-1{
+     background-color: $color-4; 
+     padding:50px;
+     .row{
+         padding: 1rem !important;
+         h3{color:$color-2;text-transform:uppercase;}
+         p{color:#646464;}
+
+     } 
+   }
+   &-2{
+    background-color: $color-5; 
+    padding:50px;
+    .row{
+        padding: 1rem !important;
+        h3{color:$color-2;text-transform:uppercase;}
+        h5{color:$color-1;font-size:1rem;}
+        p{color:#646464;}
+        .arrow{
+            display:inline-block;
+            padding-right:5px;
+            .fa-arrow-right{color:$color-3;font-size:10px;}
+        }
+    }  
+  }
+  &-3{
+    background-color: $color-4; 
+    padding:50px;
+    .row{
+        padding: 1rem !important;
+        h3{color:$color-2;text-transform:uppercase;}
+        p{color:#646464;}
+    } 
+  }
+}
+
+
+
+
+// #about .container{display: table-cell;vertical-align: middle; text-align: center; }
+// #about .contents{
+// 	/*color: white;*/
+// 	/*background-color: rgba(225,225,225,0.5);*/
+// 	/*margin-left: 50px;padding: 30px;*/
+// 	/*-webkit-backdrop-filter: blur(4px);*/
+// 	/*-moz-backdrop-filter: blur(4px);*/
+// 	/*-ms-backdrop-filter: blur(4px);*/
+// 	/*-o-backdrop-filter: blur(4px);*/
+// 	/*filter: blur(4px);*/
+// 	/*box-shadow: 6px 7px 5px #00000075;*/
+// 	width:60%;
+// 	margin-left: 20px;
+// }
+// #about .contents p{line-height: 30px;text-align: justify; font-weight: 100}
+
+// ==============================================================================================
+                     // resposiveness
+// ==============================================================================================
+//@media screen and (max-width: 767px) {
+//    //.hse-image{display:none!important;}
+//
+//}
+//
+//@media screen and (max-width: 900px) and (min-width: 600px) {
+//
+//  }
+
+// ========================================================================================
+                      // queries
+// ========================================================================================
+
+@media (max-width: 400px) {
+
+  #healthsafety-message{
+    p.paragraph{font-size:.9rem;line-height:1.4rem;}
+    padding:1rem;
+    div.imgg{padding-top: 10px;}
+
+    .col-md-7{padding-left: 0px; padding-right: 0;
+      h2{font-size:1.2rem;}
+    }
+    .col-md-5{padding-left: 0px; padding-right: 0;
+    }
+  }//#-message
+
+}//end 400

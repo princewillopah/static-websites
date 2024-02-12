@@ -1,0 +1,102 @@
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+#shipping-intro {
+  background: linear-gradient(to right, black, rgba(23, 37, 42, 0.7), rgba(0, 0, 0, 0.2)), url("../../img/shipping/shipping-head.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  #shipping-intro .contents {
+    width: 100%;
+    display: flex;
+    color: #feffff; }
+    #shipping-intro .contents h1 {
+      font-size: 4rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100; }
+    #shipping-intro .contents p {
+      font-size: 1.5rem;
+      color: #3aafa9;
+      font-family: 'Lora', serif;
+      font-style: italic; }
+
+#shipping-message {
+  padding: 3.6rem; }
+  #shipping-message div.imgg {
+    padding-top: 50px; }
+  #shipping-message .arrow {
+    display: inline-block;
+    padding-right: 5px; }
+    #shipping-message .arrow .fa-arrow-right {
+      color: #3aafa9;
+      font-size: 10px; }
+
+.storage {
+  padding: 3.5rem;
+  position: relative;
+  background-color: #eee; }
+  .storage .h2 {
+    text-align: center !important;
+    margin-bottom: 1.5rem; }
+  .storage-box .icon {
+    font-size: 2.9rem;
+    color: #2b7a78;
+    text-align: center !important; }
+  .storage .owl-carousel.owl-drag .owl-item {
+    padding: 12px; }
+    .storage .owl-carousel.owl-drag .owl-item div.owl-nav.custom-owl-navss button {
+      background-color: transparent;
+      font-size: 25px;
+      color: #a6afb6;
+      border: none;
+      padding: 7px;
+      box-shadow: none !important; }
+      .storage .owl-carousel.owl-drag .owl-item div.owl-nav.custom-owl-navss button:hover {
+        transition: all .9s ease;
+        color: #2b7a78;
+        border: none; }
+      .storage .owl-carousel.owl-drag .owl-item div.owl-nav.custom-owl-navss button:focus {
+        box-shadow: none !important;
+        outline: 0 !important; }
+    .storage .owl-carousel.owl-drag .owl-item div.owl-nav.custom-owl-navss .myMultipleSliderNavcustomPrevBtn, .storage .owl-carousel.owl-drag .owl-item div.owl-nav.custom-owl-navss .myMultipleSliderNavcustomNextBtn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 12;
+      cursor: pointer; }
+    .storage .owl-carousel.owl-drag .owl-item div.owl-nav.custom-owl-navss .myMultipleSliderNavcustomNextBtn {
+      right: 3%; }
+    .storage .owl-carousel.owl-drag .owl-item div.owl-nav.custom-owl-navss .myMultipleSliderNavcustomPrevBtn {
+      left: 3%; }
+
+@media (max-width: 400px) {
+  #shipping-message {
+    padding: 1rem; }
+    #shipping-message p.paragraph {
+      font-size: .9rem;
+      line-height: 1.4rem; }
+    #shipping-message div.imgg {
+      padding-top: 10px; }
+    #shipping-message .col-md-6 {
+      padding-left: 0px;
+      padding-right: 0; }
+      #shipping-message .col-md-6 h2 {
+        font-size: 1.2rem; }
+      #shipping-message .col-md-6 p.offset-2 {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0px; }
+
+  .storage {
+    padding: 1rem; }
+    .storage .h2 {
+      margin-bottom: 0; }
+      .storage .h2 h2 {
+        font-size: 1.2rem; } }
+
+/*# sourceMappingURL=shipping.css.map */

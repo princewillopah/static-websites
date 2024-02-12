@@ -1,0 +1,109 @@
+
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+@import "../generics/colors";
+
+  
+   #about-intro{
+    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba($color-1, 0.7),rgba(black, 1.0)) , url("../../img/about/contact-header.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    .contents{
+        width:100%;
+        display: flex;
+        justify-content: flex-end;
+        color: $color-5;
+       h1{font-size: 4rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight:100;
+    }
+       p{font-size: 1.5rem;
+         color:$color-3;
+        //  font-family: 'Roboto', sans-serif;
+        //  font-weight:300;
+        font-family: 'Lora', serif;
+        font-style: italic;
+        }
+    }
+}
+
+#about-message{
+    padding: 3.6rem;  
+}
+
+#mission-vision{
+    padding: 3.6rem;
+    background-color:  #eee;
+    h2{
+        margin-bottom:2rem;  
+    }
+
+    .row:not(:first-child){
+        margin-bottom: 3rem;
+        box-shadow: 1rem 1rem .5rem rgba(0,0,0,.1);
+        padding:20px;
+        background:#fff;
+        h4{
+            color:$color-2;
+        }
+    }
+
+}
+
+// ========================================================================================
+                      // queries
+// ========================================================================================
+
+@media (max-width: 400px) {
+
+    #about-message{
+      p.paragraph{font-size:.9rem;line-height:1.4rem;margin-bottom:10px;}
+      padding:1rem;
+  
+      .col-md-12{padding-left: 0px; padding-right: 0;
+        h2{font-size:1.4rem;}
+      }
+    }//#-message
+
+    #mission-vision{
+    padding: 1rem;
+    .section-heading {
+        margin: 0 auto 1rem auto;
+    }
+    h2{
+        // margin-bottom:2rem; 
+        font-size: 1.4rem;
+    }
+    .col-md-7{
+        padding-left: 0; padding-right: 0;
+        p.paragraph{font-size:.9rem;line-height:1.4rem;}
+        h4{font-size: 1rem;}
+    }
+    .col-md-5{ padding-left: 0; padding-right: 0;}
+
+    // .row:not(:first-child){
+    //     margin-bottom: 3rem;
+    //     box-shadow: 1rem 1rem .5rem rgba(0,0,0,.1);
+    //     padding:20px;
+    //     background:#fff;
+    //     h4{
+    //         color:$color-2;
+    //     }
+    // }
+
+}
+  
+
+
+
+
+  }//end 400
+    
+    

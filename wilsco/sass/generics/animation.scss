@@ -1,0 +1,34 @@
+@import "../generics/colors";
+
+.navbar-border-animation::after{
+content:"";
+width: 0;
+height: 3px;
+background-color: $color-2;
+display: block;
+position: relative;
+top:2px;
+transition: all 700ms ease;
+border-radius: 50%;
+}
+.navbar-border-animation:hover::after{
+    width: 100%;
+}
+
+// ------------------sticky------------------------------
+
+.sticky{
+    padding: 0;
+    // border-bottom: 3px solid #eee!important;
+    box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2);
+    transition: all 1.5s ease!important;
+}
+.my-logo{width: 120px; height: 70px;transition: all 1.5s ease!important;}
+
+
+// ========================================================================================
+                      // queries
+// ========================================================================================
+@media (max-width: 400px) {
+    .my-logo{width: 103px; height: 50px;transition: all 1.5s ease!important;}
+}

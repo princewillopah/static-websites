@@ -1,0 +1,155 @@
+
+
+
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                         About Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+#shipping-intro {
+    background: linear-gradient(to right, black, rgba(23, 37, 42, 0.7), rgba(0, 0, 0, 0.2)), url("../../img/shipping/shipping-head.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    .contents {
+      width: 100%;
+      display: flex;
+      color: #feffff; 
+      h1 {
+        font-size: 4rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100; 
+      }
+      p {
+        font-size: 1.5rem;
+        color: #3aafa9;
+        font-family: 'Lora', serif;
+        font-style: italic; 
+      }
+    }
+
+  }
+    
+     
+  #shipping-message {
+    padding: 3.6rem; 
+    div.imgg{padding-top:50px;}
+    .arrow {
+      display: inline-block;
+      padding-right: 5px; 
+      .fa-arrow-right {
+        color: #3aafa9;
+        font-size: 10px; 
+      }
+    }
+  }
+    
+      
+  
+  .storage {
+    padding: 3.5rem;
+    position: relative;
+    background-color: #eee; 
+    .h2 {
+      text-align: center !important;
+      margin-bottom: 1.5rem;
+     }
+     &-box .icon {
+      font-size: 2.9rem;
+      color: #2b7a78;
+      text-align: center !important;
+     }
+
+
+
+     .owl-carousel.owl-drag .owl-item {
+      padding: 12px;
+      div.owl-nav.custom-owl-navss{
+        button {
+          background-color: transparent;
+          font-size: 25px;
+          color: #a6afb6;
+          border: none;
+          padding: 7px;
+          box-shadow: none !important; 
+          &:hover {
+            transition: all .9s ease;
+            color: #2b7a78;
+            border: none; 
+          }
+          &:focus {
+            box-shadow: none !important;
+            outline: 0 !important; 
+          } 
+        }
+        .myMultipleSliderNavcustomPrevBtn,  .myMultipleSliderNavcustomNextBtn {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 12;
+          cursor: pointer;
+         }
+         .myMultipleSliderNavcustomNextBtn {
+          right: 3%; 
+        }
+         .myMultipleSliderNavcustomPrevBtn {
+          left: 3%; 
+        }
+
+      }   
+    }
+  }
+   
+    
+  
+// ========================================================================================
+                      // queries
+// ========================================================================================
+
+@media (max-width: 400px) {
+
+  #shipping-message{
+    p.paragraph{font-size:.9rem;line-height:1.4rem;}
+    padding:1rem;
+    div.imgg{padding-top: 10px;}
+
+    .col-md-6{padding-left: 0px; padding-right: 0;
+      h2{font-size:1.2rem;}
+      p.offset-2{margin-left:0; padding-right: 0; padding-left: 0px;}
+    }
+  }//#-message
+
+    
+  .storage {
+    padding: 1rem;
+    .h2 {
+      margin-bottom: 0;
+      h2{font-size: 1.2rem;}
+     }
+   
+
+
+
+    //  .owl-carousel.owl-drag .owl-item {
+    //   padding: 12px;
+    //   div.owl-nav.custom-owl-navss{
+    //     button {
+    //       font-size: 16px; 
+    //     }
+    //      .myMultipleSliderNavcustomNextBtn {
+    //       right: 1%!important; 
+    //     }
+    //      .myMultipleSliderNavcustomPrevBtn {
+    //       left: 1%!important; 
+    //     }
+
+    //   }   
+    // }
+  }
+   
+ 
+}//end 400
+  
